@@ -5,6 +5,9 @@ import java.time.LocalDate;
 import java.util.Locale;
 
 public class Funcionario extends Pessoa {
+	
+	// 2 – Classe Funcionário que estenda a classe Pessoa, com os atributos: salário (BigDecimal) e função (String).
+	
 	private BigDecimal salario;
 	private String funcao;
 	private NumberFormat numeroFormatter = NumberFormat.getNumberInstance(Locale.of("pt", "BR"));

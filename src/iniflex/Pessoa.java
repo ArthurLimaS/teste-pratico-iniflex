@@ -4,6 +4,9 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 public class Pessoa {
+	
+	//	1– Classe Pessoa com os atributos: nome (String) e data nascimento (LocalDate).
+	
 	protected String nome;
 	protected LocalDate dataNascimento;
 	protected DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
